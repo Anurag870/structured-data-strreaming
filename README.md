@@ -1,4 +1,4 @@
-# structured-data-strreaming
+# structured-data-streaming
 # Data Stream Development with Apache Spark, Kafka, and Spring Boot
 This is the code repository for article at linkedin. It contains all the supporting project files.
 ### Technical Requirements
@@ -24,10 +24,10 @@ Create a topic named ‘rsvpTopic’ on your kafka cluster. (following command f
 ./bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic rsvpTopic
 
 ___Mongo Setup___
-* Creat a mongo database named 'rsvpDB' and create ‘capped’ collection named ‘meetups’ in  rsvpDB.
+* Create a mongo database named 'rsvpDB' and create ‘capped’ collection named ‘meetups’ in  rsvpDB.
 
 
-It consists of three projects.
+It consist of three projects.
 
 
 __CollectSendToKafka:__
